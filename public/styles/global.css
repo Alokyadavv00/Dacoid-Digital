@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-montserrat: Montserrat;
+
+    /* font sizes */
+    --font-size-3xs: 10px;
+    --font-size-xs: 12px;
+    --font-size-base: 16px;
+    --font-size-sm-2: 13.2px;
+    --font-size-smi-2: 12.2px;
+    --font-size-xs-2: 11.2px;
+
+    /* Colors */
+    --gray-100: #808080;
+    --black: #2c2b2b;
+    --color-gray-100: #252727;
+    --color-white: #fff;
+    --color-cornflowerblue-100: #8099ff;
+    --color-cornflowerblue-200: rgba(140, 177, 255, 0.6);
+    --color-darkslateblue: rgba(42, 67, 156, 0);
+    --color-red: rgba(255, 0, 0, 0.42);
+    --color-limegreen-100: #34b009;
+    --color-limegreen-200: rgba(52, 176, 9, 0.5);
+
+    /* Gaps */
+    --gap-4xs: 9px;
+    --gap-xl: 20px;
+    --gap-5xs: 8px;
+
+    /* Paddings */
+    --padding-xs: 12px;
+    --padding-base: 16px;
+    --padding-5xs: 8px;
+    --padding-mid: 17px;
+    --padding-smi: 13px;
+    --padding-10xs: 3px;
+    --padding-11xs: 2px;
+    --padding-9xs: 4px;
+    --padding-xl: 20px;
+
+    /* Border radiuses */
+    --br-3xs: 10px;
+    --br-xs: 12px;
+    --br-mini-3: 14.3px;
+    --br-11xs-5: 1.5px;
+}
+
+/* Your existing CSS rules go here */

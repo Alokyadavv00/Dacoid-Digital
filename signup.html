@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create an Account</title>
+  <link rel="stylesheet" href="./public/styles/signup.css">
+
+</head>
+
+<body>
+  <div id="app">
+    <h2>Create an Account</h2>
+    <div class="form-group">
+      <label for="firstName"></label>
+      <input type="text" id="firstName" class="input-field" placeholder="First name">
+    </div>
+    <div class="form-group">
+      <label for="lastName"></label>
+      <input type="text" id="lastName" class="input-field" placeholder="Last name">
+    </div>
+    <div class="form-group">
+      <label for="email"></label>
+      <input type="email" id="email" class="input-field" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for="password"></label>
+      <input type="password" id="password" class="input-field" placeholder="Password">
+    </div>
+    <label class="checkbox-label" for="privacyPolicy">
+      <input type="checkbox" id="privacyPolicy">
+      By proceeding, I agree to all <a href="#" class="terms-link">T&C</a> and <a href="#" class="privacy-link">Privacy
+        policy</a>
+    </label>
+
+    <button id="registerButton" class="button">Create an Account</button>
+    <div class="or-divider">
+      <div class="line"></div>
+      <div class="text">Or</div>
+      <div class="line"></div>
+    </div>
+    <div class="social-login">
+      <a>
+        <img src="./public/assets/images/google_logo.png" alt="Google Logo">
+        <img src="./public/assets/images/facebook.png" alt="Google Logo">
+      </a>
+
+
+    </div>
+    <div style="text-align: center;">Already have an account? <a href="login.html"
+        style="color: blue; text-decoration: underline;">Login</a></div>
+
+  </div>
+
+  <script src="createacc.js"></script>
+</body>
+
+</html>

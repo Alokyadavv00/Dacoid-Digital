@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   <script src="public/scripts/onboard2.js"></script>
+    <link rel="stylesheet" href="public/styles/onboard2.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="bg-gray-100 relative">
+
+    <div class="container mx-auto py-8">
+        <!-- Skip Button -->
+        <a href="./signup.html" class="text-right text-gray-600 text-sm absolute top-0 right-0 mt-4 mr-4">
+            <button id="skipButton">Skip</button>
+        </a>
+
+        <!-- Image -->
+        <div class="flex justify-center mt-8">
+            <img src="/public/assets/images/onboard2.png" alt="Onboarding Image"
+                class="w-full max-w-xs rounded-lg shadow-lg">
+        </div>
+
+        <!-- Heading and Description -->
+        <div class="mb-10 mt-8">
+            <h1 class="text-2xl font-bold text-gray-800">Track Your Goal</h1>
+            <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+
+    <div class="next-icon" onclick="navigateToNextPage()">
+        <button class="circular-button">
+            <span class="material-symbols-outlined">
+                chevron_right
+            </span>
+        </button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
